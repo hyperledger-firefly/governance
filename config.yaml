@@ -1,4 +1,9 @@
 teams:
+- name: firefly-admins
+  maintainers:
+  - ryjones
+  members:
+  - EnriqueL8
 - name: staff
   maintainers:
   - ryjones
