@@ -1,8 +1,6 @@
 teams:
 - name: firefly-admins
   maintainers:
-  - ryjones
-  members:
   - EnriqueL8
 - name: staff
   maintainers:
@@ -14,4 +12,5 @@ repositories:
 - name: governance
   teams:
     staff: maintain
+    firefly-admins: maintain
   visibility: public
