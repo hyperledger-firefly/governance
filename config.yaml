@@ -9,6 +9,11 @@ teams:
   - jwagantall
   - thelinuxfoundation
 repositories:
+- name: .github
+  teams:
+    staff: maintain
+    firefly-admins: maintain
+  visibility: public
 - name: governance
   teams:
     staff: maintain
