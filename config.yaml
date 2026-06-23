@@ -19,3 +19,8 @@ repositories:
     staff: maintain
     firefly-admins: maintain
   visibility: public
+- name: TSC
+  teams:
+    staff: maintain
+    firefly-admins: maintain
+  visibility: public
