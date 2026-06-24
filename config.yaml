@@ -29,3 +29,63 @@ repositories:
     staff: maintain
     firefly-admins: maintain
   visibility: public
+- name: fir
+  teams:
+    staff: maintain
+    firefly-admins: admin
+  visibility: public
+- name: ethconnect
+  teams:
+    staff: maintain
+    firefly-admins: admin
+  visibility: public
+- name: fabconnect
+  teams:
+    staff: maintain
+    firefly-admins: admin
+  visibility: public
+- name: cordaconnect
+  teams:
+    staff: maintain
+    firefly-admins: admin
+  visibility: public
+- name: dataexchange-https
+  teams:
+    staff: maintain
+    firefly-admins: admin
+  visibility: public
+- name: tokens-erc1155
+  teams:
+    staff: maintain
+    firefly-admins: admin
+  visibility: public
+- name: tokens-erc20-erc721
+  teams:
+    staff: maintain
+    firefly-admins: admin
+  visibility: public
+- name: ui
+  teams:
+    staff: maintain
+    firefly-admins: admin
+  visibility: public
+- name: cardano
+  teams:
+    staff: maintain
+    firefly-admins: admin
+  visibility: public
+- name: sdk-nodejs
+  teams:
+    staff: maintain
+    firefly-admins: admin
+  visibility: public
+- name: helm-charts
+  teams:
+    staff: maintain
+    firefly-admins: admin
+  visibility: public
+- name: samples
+  teams:
+    staff: maintain
+    firefly-admins: admin
+  visibility: public
