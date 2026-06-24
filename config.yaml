@@ -1,11 +1,11 @@
 teams:
   - name: firefly-admins
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
+    members:
+      - peterbroadhurst
   - name: firefly-contributors
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - Chengxuan
@@ -16,6 +16,7 @@ teams:
       - jimthematrix
       - matthew1001
       - shorsher
+      - peterbroadhurst
   - name: staff
     maintainers:
       - ryjones
@@ -24,84 +25,85 @@ teams:
       - thelinuxfoundation
   - name: firefly-common-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - awrichar
       - onelapahead
+      - peterbroadhurst
   - name: firefly-cordaconnect-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - jimthematrix
+      - peterbroadhurst
   - name: firefly-dataexchange-https-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - gabriel-indik
+      - peterbroadhurst
   - name: firefly-ethconnect-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - awrichar
       - jimthematrix
+      - peterbroadhurst
   - name: firefly-fabconnect-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - jimthematrix
+      - peterbroadhurst
   - name: firefly-fir-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
+    members:
+      - peterbroadhurst
   - name: firefly-helm-charts-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - onelapahead
       - SamMayWork
+      - peterbroadhurst
   - name: firefly-samples-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - awrichar
       - shorsher
+      - peterbroadhurst
   - name: firefly-sdk-nodejs-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - awrichar
       - dechdev
+      - peterbroadhurst
   - name: firefly-tokens-erc1155-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - awrichar
       - shorsher
+      - peterbroadhurst
   - name: firefly-tokens-erc20-erc721-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - awrichar
       - dechdev
       - shorsher
+      - peterbroadhurst
   - name: firefly-ui-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - awrichar
       - dechdev
       - shorsher
+      - peterbroadhurst
   - name: firefly-cardano
     maintainers:
       - EnriqueL8
@@ -111,25 +113,25 @@ teams:
       - mmahut
   - name: firefly-core-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - awrichar
       - shorsher
+      - peterbroadhurst
   - name: firefly-cli-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - awrichar
+      - peterbroadhurst
   - name: firefly-evmconnect-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - Chengxuan
       - awrichar
       - matthew1001
+      - peterbroadhurst
   - name: firefly-tezosconnect-maintainers
     maintainers:
       - EnriqueL8
@@ -138,35 +140,35 @@ teams:
       - alex-semenyuk
   - name: firefly-sandbox-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - awrichar
       - dechdev
       - shorsher
+      - peterbroadhurst
   - name: firefly-perf-cli-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - awrichar
       - dechdev
       - shorsher
       - Chengxuan
+      - peterbroadhurst
   - name: firefly-signer-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - awrichar
+      - peterbroadhurst
   - name: firefly-transaction-manager-maintainers
     maintainers:
-      - peterbroadhurst
       - EnriqueL8
     members:
       - Chengxuan
       - awrichar
       - matthew1001
+      - peterbroadhurst
 repositories:
   - name: .github
     teams:
