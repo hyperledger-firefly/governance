@@ -1,91 +1,334 @@
 teams:
-- name: firefly-admins
-  maintainers:
-  - EnriqueL8
-- name: staff
-  maintainers:
-  - ryjones
-  members:
-  - jwagantall
-  - thelinuxfoundation
+  - name: firefly-admins
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+  - name: firefly-contributors
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - Chengxuan
+      - awrichar
+      - dechdev
+      - gabriel-indik
+      - onelapahead
+      - jimthematrix
+      - matthew1001
+      - shorsher
+  - name: staff
+    maintainers:
+      - ryjones
+    members:
+      - jwagantall
+      - thelinuxfoundation
+  - name: firefly-common-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - awrichar
+      - onelapahead
+  - name: firefly-cordaconnect-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - jimthematrix
+  - name: firefly-dataexchange-https-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - gabriel-indik
+  - name: firefly-ethconnect-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - awrichar
+      - jimthematrix
+  - name: firefly-fabconnect-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - jimthematrix
+  - name: firefly-fir-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+  - name: firefly-helm-charts-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - onelapahead
+      - SamMayWork
+  - name: firefly-samples-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - awrichar
+      - shorsher
+  - name: firefly-sdk-nodejs-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - awrichar
+      - dechdev
+  - name: firefly-tokens-erc1155-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - awrichar
+      - shorsher
+  - name: firefly-tokens-erc20-erc721-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - awrichar
+      - dechdev
+      - shorsher
+  - name: firefly-ui-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - awrichar
+      - dechdev
+      - shorsher
+  - name: firefly-cardano
+    maintainers:
+      - EnriqueL8
+    members:
+      - SupernaviX
+      - Quantumplation
+      - mmahut
+  - name: firefly-core-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - awrichar
+      - shorsher
+  - name: firefly-cli-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - awrichar
+  - name: firefly-evmconnect-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - Chengxuan
+      - awrichar
+      - matthew1001
+  - name: firefly-tezosconnect-maintainers
+    maintainers:
+      - EnriqueL8
+    members:
+      - denisandreenko
+      - alex-semenyuk
+  - name: firefly-sandbox-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - awrichar
+      - dechdev
+      - shorsher
+  - name: firefly-perf-cli-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - awrichar
+      - dechdev
+      - shorsher
+      - Chengxuan
+  - name: firefly-signer-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - awrichar
+  - name: firefly-transaction-manager-maintainers
+    maintainers:
+      - peterbroadhurst
+      - EnriqueL8
+    members:
+      - Chengxuan
+      - awrichar
+      - matthew1001
 repositories:
-- name: .github
-  teams:
-    staff: maintain
-    firefly-admins: maintain
-  visibility: public
-- name: common
-  teams:
-    staff: maintain
-    firefly-admins: admin
-  visibility: public
-- name: governance
-  teams:
-    staff: maintain
-    firefly-admins: maintain
-  visibility: public
-- name: TSC
-  teams:
-    staff: maintain
-    firefly-admins: maintain
-  visibility: public
-- name: fir
-  teams:
-    staff: maintain
-    firefly-admins: admin
-  visibility: public
-- name: ethconnect
-  teams:
-    staff: maintain
-    firefly-admins: admin
-  visibility: public
-- name: fabconnect
-  teams:
-    staff: maintain
-    firefly-admins: admin
-  visibility: public
-- name: cordaconnect
-  teams:
-    staff: maintain
-    firefly-admins: admin
-  visibility: public
-- name: dataexchange-https
-  teams:
-    staff: maintain
-    firefly-admins: admin
-  visibility: public
-- name: tokens-erc1155
-  teams:
-    staff: maintain
-    firefly-admins: admin
-  visibility: public
-- name: tokens-erc20-erc721
-  teams:
-    staff: maintain
-    firefly-admins: admin
-  visibility: public
-- name: ui
-  teams:
-    staff: maintain
-    firefly-admins: admin
-  visibility: public
-- name: cardano
-  teams:
-    staff: maintain
-    firefly-admins: admin
-  visibility: public
-- name: sdk-nodejs
-  teams:
-    staff: maintain
-    firefly-admins: admin
-  visibility: public
-- name: helm-charts
-  teams:
-    staff: maintain
-    firefly-admins: admin
-  visibility: public
-- name: samples
-  teams:
-    staff: maintain
-    firefly-admins: admin
-  visibility: public
+  - name: .github
+    teams:
+      staff: maintain
+      firefly-admins: maintain
+    visibility: public
+  - name: common
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-common-maintainers: maintain
+    visibility: public
+  - name: governance
+    teams:
+      staff: maintain
+      firefly-admins: maintain
+      firefly-contributors: read
+    visibility: public
+  - name: TSC
+    teams:
+      staff: maintain
+      firefly-admins: maintain
+      firefly-contributors: read
+    visibility: public
+  - name: fir
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-fir-maintainers: maintain
+    visibility: public
+  - name: ethconnect
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-ethconnect-maintainers: maintain
+    visibility: public
+  - name: fabconnect
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-fabconnect-maintainers: maintain
+    visibility: public
+  - name: cordaconnect
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-cordaconnect-maintainers: maintain
+    visibility: public
+  - name: dataexchange-https
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-dataexchange-https-maintainers: maintain
+    visibility: public
+  - name: tokens-erc1155
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-tokens-erc1155-maintainers: maintain
+    visibility: public
+  - name: tokens-erc20-erc721
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-tokens-erc20-erc721-maintainers: maintain
+    visibility: public
+  - name: ui
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-ui-maintainers: maintain
+    visibility: public
+  - name: cardano
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-cardano: maintain
+    visibility: public
+  - name: sdk-nodejs
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-sdk-nodejs-maintainers: maintain
+    visibility: public
+  - name: helm-charts
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-helm-charts-maintainers: maintain
+    visibility: public
+  - name: samples
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-samples-maintainers: maintain
+    visibility: public
+  - name: firefly
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-core-maintainers: maintain
+    visibility: public
+  - name: cli
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-cli-maintainers: maintain
+    visibility: public
+  - name: evmconnect
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-evmconnect-maintainers: maintain
+    visibility: public
+  - name: tezosconnect
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-tezosconnect-maintainers: maintain
+    visibility: public
+  - name: sandbox
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-sandbox-maintainers: maintain
+    visibility: public
+  - name: perf-cli
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-perf-cli-maintainers: maintain
+    visibility: public
+  - name: signer
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-signer-maintainers: maintain
+    visibility: public
+  - name: transaction-manager
+    teams:
+      staff: maintain
+      firefly-admins: admin
+      firefly-contributors: read
+      firefly-transaction-manager-maintainers: maintain
+    visibility: public
