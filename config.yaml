@@ -177,7 +177,6 @@ repositories:
     visibility: public
   - name: common
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-common-maintainers: maintain
@@ -196,140 +195,120 @@ repositories:
     visibility: public
   - name: fir
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-fir-maintainers: maintain
     visibility: public
   - name: ethconnect
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-ethconnect-maintainers: maintain
     visibility: public
   - name: fabconnect
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-fabconnect-maintainers: maintain
     visibility: public
   - name: cordaconnect
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-cordaconnect-maintainers: maintain
     visibility: public
   - name: dataexchange-https
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-dataexchange-https-maintainers: maintain
     visibility: public
   - name: tokens-erc1155
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-tokens-erc1155-maintainers: maintain
     visibility: public
   - name: tokens-erc20-erc721
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-tokens-erc20-erc721-maintainers: maintain
     visibility: public
   - name: ui
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-ui-maintainers: maintain
     visibility: public
   - name: cardano
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-cardano: maintain
     visibility: public
   - name: sdk-nodejs
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-sdk-nodejs-maintainers: maintain
     visibility: public
   - name: helm-charts
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-helm-charts-maintainers: maintain
     visibility: public
   - name: samples
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-samples-maintainers: maintain
     visibility: public
   - name: firefly
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-core-maintainers: maintain
     visibility: public
   - name: cli
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-cli-maintainers: maintain
     visibility: public
   - name: evmconnect
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-evmconnect-maintainers: maintain
     visibility: public
   - name: tezosconnect
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-tezosconnect-maintainers: maintain
     visibility: public
   - name: sandbox
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-sandbox-maintainers: maintain
     visibility: public
   - name: perf-cli
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-perf-cli-maintainers: maintain
     visibility: public
   - name: signer
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-signer-maintainers: maintain
     visibility: public
   - name: transaction-manager
     teams:
-      staff: maintain
       firefly-admins: admin
       firefly-contributors: read
       firefly-transaction-manager-maintainers: maintain
