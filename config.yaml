@@ -10,7 +10,6 @@ teams:
     members:
       - Chengxuan
       - awrichar
-      - dechdev
       - gabriel-indik
       - onelapahead
       - jimthematrix
@@ -79,7 +78,6 @@ teams:
       - EnriqueL8
     members:
       - awrichar
-      - dechdev
       - peterbroadhurst
   - name: firefly-tokens-erc1155-maintainers
     maintainers:
@@ -93,7 +91,6 @@ teams:
       - EnriqueL8
     members:
       - awrichar
-      - dechdev
       - shorsher
       - peterbroadhurst
   - name: firefly-ui-maintainers
@@ -101,7 +98,6 @@ teams:
       - EnriqueL8
     members:
       - awrichar
-      - dechdev
       - shorsher
       - peterbroadhurst
   - name: firefly-cardano
@@ -143,7 +139,6 @@ teams:
       - EnriqueL8
     members:
       - awrichar
-      - dechdev
       - shorsher
       - peterbroadhurst
   - name: firefly-perf-cli-maintainers
@@ -151,7 +146,6 @@ teams:
       - EnriqueL8
     members:
       - awrichar
-      - dechdev
       - shorsher
       - Chengxuan
       - peterbroadhurst
